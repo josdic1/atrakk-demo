@@ -193,7 +193,7 @@ function TracksManager() {
       {/* Top Bar */}
       <header className="top-bar">
         <h1 className="title">
-          <Disc3 size={24} /> Tracks Manager
+          <Disc3 size={24} /> Song Manager
         </h1>
         <div className="top-actions">
           <button 
