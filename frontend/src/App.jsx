@@ -1,13 +1,10 @@
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import TracksManager from './pages/TracksManager';
-
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/atrakk-demo/">
       <div className="App">
-        
-
         <Routes>
           <Route path="/" element={<TracksManager />} />
         </Routes>
